@@ -9,7 +9,7 @@ using System.Net.Http.Headers;
 
 namespace GlosbeApi.Net
 {
-    public class Translate
+    public class Translator
     {
         private string _translateEndPoint = "https://glosbe.com/gapi_v0_1/translate";
         private string _queryString = "?from={0}&dest={1}&format=json&phrase={2}";

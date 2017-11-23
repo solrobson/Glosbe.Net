@@ -11,13 +11,14 @@ namespace GlosbeApi.Net.Console
     {
         static void Main(string[] args)
         {
-            Translate t = new Translate();
-            var response = t.GetTranslationAsync(new TranslateRequestModel { Dest = new System.Globalization.CultureInfo("en"), From = new System.Globalization.CultureInfo("en"), Phrase = "words" });
-
-            foreach(var tuc in response.Result.Tuc)
+            //Translator t = new Translator();
+            //var response = t.GetTranslationAsync(new TranslateRequestModel { Dest = new System.Globalization.CultureInfo("en"), From = new System.Globalization.CultureInfo("en"), Phrase = "words" });
+            Definer d = new Definer();
+            var response = d.GetDefinitionAsync(new Model.DefinitionRequestModel { Language = new System.Globalization.CultureInfo("en"), Phrase = "words" });
+            foreach (var tuc in response.Result.Tuc)
             {
                 System.Console.WriteLine("Phrase: " + tuc.Phrase.Text);
-                foreach(var meaning in tuc.Meanings)
+                foreach (var meaning in tuc.Meanings)
                 {
                     System.Console.WriteLine("{0} {1}", meaning.Language, meaning.Text);
                 }

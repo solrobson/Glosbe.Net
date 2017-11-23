@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Translate.cs" />
+    <Compile Include="Definer.cs" />
+    <Compile Include="Model\DefinitionRequestModel.cs" />
+    <Compile Include="Translator.cs" />
     <Compile Include="Model\Translate\Author.cs" />
     <Compile Include="Model\Translate\Phrase.cs" />
     <Compile Include="Model\Translate\TranslateModel.cs" />
