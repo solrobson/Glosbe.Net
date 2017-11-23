@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlosbeApi.Net", "GlosbeApi.Net\GlosbeApi.Net.csproj", "{AD665480-4B5C-4A2C-9D2F-12F38E4C89CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlosbeApi.Net.Console", "GlosbeApi.Net.Console\GlosbeApi.Net.Console.csproj", "{2256E32E-66A1-4DDE-B6D9-1C71BBC6E3E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD665480-4B5C-4A2C-9D2F-12F38E4C89CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD665480-4B5C-4A2C-9D2F-12F38E4C89CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD665480-4B5C-4A2C-9D2F-12F38E4C89CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD665480-4B5C-4A2C-9D2F-12F38E4C89CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2256E32E-66A1-4DDE-B6D9-1C71BBC6E3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2256E32E-66A1-4DDE-B6D9-1C71BBC6E3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2256E32E-66A1-4DDE-B6D9-1C71BBC6E3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2256E32E-66A1-4DDE-B6D9-1C71BBC6E3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CAC68CD-74B0-4C2A-8DBF-DA0196C7B612}
+	EndGlobalSection
+EndGlobal
