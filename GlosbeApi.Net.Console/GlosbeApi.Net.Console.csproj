@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GlosbeApi.Net\GlosbeApi.Net.csproj">
+      <Project>{ad665480-4b5c-4a2c-9d2f-12f38e4c89ce}</Project>
+      <Name>GlosbeApi.Net</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

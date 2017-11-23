@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace GlosbeApi.Net.Model.Translate
 {
-    public class TranslationResponseModel
+    public class TranslateResponseModel
     {
-        public IEnumerable<Author> Authors { get; set; }
+        public IDictionary<int, Author> Authors { get; set; }
         public string Dest { get; set; }
         public string From { get; set; }
         public string Phrase { get; set; }
